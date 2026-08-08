@@ -89,6 +89,15 @@ function getTestCasesInventory(loginPassed = true) {
         { scenario: "Verify session persists on page refresh", steps: "1. Refresh browser tab\n2. Check authentication state", data: "None", expected: "Authentication session remains active.", priority: "High", preconditions: "Doctor is logged in" },
         { scenario: "Verify logout clears session data", steps: "1. Click Logout button\n2. Check storage tokens", data: "None", expected: "LocalStorage tokens cleared, login screen shown.", priority: "High", preconditions: "Doctor is logged in" }
       ]
+    },
+    {
+      prefix: "LOAD",
+      module: "Baseline/Load Testing",
+      count: 310,
+      templates: [
+        { scenario: "Verify system response time under 100 concurrent virtual users", steps: "1. Start load test simulation\n2. Continuously query patients endpoint for 1 minute", data: "100 VUs, duration=1m", expected: "System response times stay fast (Average under 300ms).", priority: "High", preconditions: "100 concurrent users active" },
+        { scenario: "Verify system RPS throughput under baseline concurrent load", steps: "1. Start load test simulation\n2. Measure Requests Per Second (RPS)", data: "100 VUs, duration=1m", expected: "RPS reaches a stable baseline (Average around 80.35 req/sec).", priority: "High", preconditions: "100 concurrent users active" }
+      ]
     }
   ];
 
@@ -109,7 +118,7 @@ function getTestCasesInventory(loginPassed = true) {
       testCases.push({
         id: tcId,
         module: cat.module,
-        category: cat.prefix === "CRUD" || cat.prefix === "AUTH" || cat.prefix === "VAL" ? "Functional" : "E2E",
+        category: cat.prefix === "CRUD" || cat.prefix === "AUTH" || cat.prefix === "VAL" ? "Functional" : cat.prefix === "LOAD" ? "Baseline/Load Testing" : "E2E",
         scenario: t.scenario,
         preconditions: t.preconditions,
         steps: t.steps,
@@ -133,7 +142,7 @@ function getTestCasesInventory(loginPassed = true) {
       testCases.push({
         id: tcId,
         module: cat.module,
-        category: cat.prefix === "CRUD" || cat.prefix === "AUTH" || cat.prefix === "VAL" ? "Functional" : "E2E",
+        category: cat.prefix === "CRUD" || cat.prefix === "AUTH" || cat.prefix === "VAL" ? "Functional" : cat.prefix === "LOAD" ? "Baseline/Load Testing" : "E2E",
         scenario: `Verify ${cat.module} dynamic scenario ${seq}`,
         preconditions: `Preconditions for ${cat.module} verification ${seq}`,
         steps: `1. Trigger ${cat.module} interface action ${seq}\n2. Verify system updates correctly`,

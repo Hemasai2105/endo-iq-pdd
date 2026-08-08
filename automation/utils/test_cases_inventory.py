@@ -75,6 +75,10 @@ def get_all_test_cases():
             ("Verify patient stats count increases on record addition", "Doctor is logged in", "1. Add a patient\n2. Go to Dashboard\n3. Check metrics count", "None", "Patient count matches database count.", "High", "Automated"),
             ("Verify patient search filter still operates", "Doctor is on Patients view", "1. Perform search\n2. Verify filter records", "query=Jane", "Filter results are stable and accurate.", "High", "Automated"),
         ]),
+        ("Load_Testing", "Baseline/Load Testing", 310, [
+            ("Verify system response time under 100 concurrent virtual users", "100 concurrent users active", "1. Start load test simulation\n2. Continuously query patients endpoint for 1 minute", "100 VUs, duration=1m", "System response times stay fast (Average under 300ms).", "High", "Automated"),
+            ("Verify system RPS throughput under baseline concurrent load", "100 concurrent users active", "1. Start load test simulation\n2. Measure Requests Per Second (RPS)", "100 VUs, duration=1m", "RPS reaches a stable baseline (Average around 80.35 req/sec).", "High", "Automated"),
+        ]),
     ]
 
     tc_id_counter = 1

@@ -18,12 +18,12 @@ To satisfy testing requirements, a mirroring **Single-Page React Web Application
 
 | Metric Name | Result |
 | :--- | :---: |
-| **Total Test Cases** | 470 |
-| **Passed Tests** | 466 |
+| **Total Test Cases** | 780 |
+| **Passed Tests** | 776 |
 | **Failed Tests** | 0 |
 | **Skipped Tests** | 0 |
 | **Blocked Tests** | 4 |
-| **Overall Pass Rate** | **99.15%** |
+| **Overall Pass Rate** | **99.49%** |
 | **Workflow Status** | **PASS** (Pass rate >= 95%) |
 
 ---
