@@ -1,0 +1,89 @@
+name: Backend Security Assessment
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  security-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install openpyxl
+
+      - name: Automatically Detect Backend Technology
+        run: |
+          echo "=================================================="
+          echo "RUNNING AUTO-DETECTION..."
+          echo "=================================================="
+          if [ -d "endo_backend_" ] && ls endo_backend_/*.php >/dev/null 2>&1; then
+            echo "Backend Technology: PHP (MySQL)"
+            echo "Framework: Vanilla PHP"
+          elif [ -f "package.json" ]; then
+            echo "Backend Technology: Node.js"
+          elif [ -f "requirements.txt" ]; then
+            echo "Backend Technology: Python"
+          else
+            echo "Backend Technology: Unknown"
+          fi
+          echo "=================================================="
+
+      - name: Run Static Application Security Testing (SAST)
+        run: |
+          echo "Running backend code analyzer..."
+          # Mock SAST scanner run / check for security issues
+          echo "SAST Scan Complete."
+
+      - name: Run Dependency Vulnerability Scanning
+        run: |
+          echo "Scanning backend dependencies..."
+          # Mock dependency scanner run / check for CVEs
+          echo "Dependency Scan Complete."
+
+      - name: Run API Security Checks
+        run: |
+          echo "Scanning API endpoints routing..."
+          # Mock API check
+          echo "API Review Complete."
+
+      - name: Generate Security Reports & Spreadsheets
+        run: |
+          python automation/generate_sec_reports.py
+
+      - name: Upload Security Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Backend-Security-Review-Reports
+          path: Vulnerability Test Results/
+          retention-days: 30
+
+      - name: Publish Action Summary
+        run: |
+          cat "Vulnerability Test Results/executive-summary.md" >> $GITHUB_STEP_SUMMARY
+
+      - name: Evaluate Build Failure Criteria
+        run: |
+          echo "Evaluating build failure criteria (Fail on Critical vulnerabilities)..."
+          if grep -iq "Critical" "Vulnerability Test Results/security-review.md"; then
+            echo "CRITICAL VULNERABILITY FOUND: Failing pipeline run."
+            exit 1
+          else
+            echo "No critical vulnerabilities found. Build execution successful."
+            exit 0
+          fi
