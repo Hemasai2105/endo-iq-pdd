@@ -86,7 +86,8 @@ def main():
         sys.exit(1)
         
     # Configure E2E to open local dist index file
-    local_url = f"file:///{dist_index.replace('\\', '/')}"
+    dist_index_url = dist_index.replace('\\', '/')
+    local_url = f"file:///{dist_index_url}"
     config.BASE_URL = local_url
     print(f"Configured Selenium Target BASE_URL: {config.BASE_URL}")
 
