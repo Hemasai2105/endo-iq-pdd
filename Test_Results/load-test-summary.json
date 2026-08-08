@@ -1,0 +1,20 @@
+{
+    "virtual_users": 100,
+    "duration": "1m",
+    "metrics": {
+        "total_requests": 4821,
+        "requests_per_second": 80.35,
+        "avg_response_time_ms": 280.12,
+        "min_response_time_ms": 9.45,
+        "max_response_time_ms": 1480.23,
+        "p95_response_time_ms": 495.21,
+        "failure_rate_percent": 0.0,
+        "http_status_distribution": {
+            "200": 4821
+        }
+    },
+    "thresholds": {
+        "failure_rate": "Passed (Actual: 0.00% < 5%)",
+        "p95_response_time": "Passed (Actual: 495.21ms < 1500ms)"
+    }
+}

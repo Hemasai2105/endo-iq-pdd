@@ -1,0 +1,29 @@
+{
+  "doctor": {
+    "name": "Dr. Test Agent",
+    "email": "dr.test.agent@endoai.com",
+    "password": "SecurePassword123!"
+  },
+  "patients": [
+    {
+      "name": "Jane Doe",
+      "age": 45,
+      "gender": "Female",
+      "diagnosis": "Root Fracture",
+      "teeth": [14, 15],
+      "conditions": ["Asthma"],
+      "smoking": true,
+      "alcohol": false
+    },
+    {
+      "name": "John Smith",
+      "age": 32,
+      "gender": "Male",
+      "diagnosis": "Cracked Tooth",
+      "teeth": [46],
+      "conditions": [],
+      "smoking": false,
+      "alcohol": true
+    }
+  ]
+}

@@ -1,0 +1,4243 @@
+{
+    "summary": {
+        "total": 470,
+        "passed": 466,
+        "failed": 0,
+        "skipped": 0,
+        "blocked": 4,
+        "pass_percentage": 99.15,
+        "execution_duration_sec": 143.47756028175354
+    },
+    "tests": [
+        {
+            "id": "TC-AUTHENTICATION-001",
+            "module": "Authentication",
+            "scenario": "Verify login with valid doctor credentials",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.275,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-002",
+            "module": "Authentication",
+            "scenario": "Verify login with empty email",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.24,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-003",
+            "module": "Authentication",
+            "scenario": "Verify login with empty password",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.065,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-004",
+            "module": "Authentication",
+            "scenario": "Verify password visibility toggle",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.318,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-005",
+            "module": "Authentication",
+            "scenario": "Verify register with strong password",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.306,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-006",
+            "module": "Authentication",
+            "scenario": "Verify register with existing email",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.185,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-007",
+            "module": "Authentication",
+            "scenario": "Verify reset password link triggers verification email",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.423,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-008",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.404,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-009",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.127,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-010",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.065,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-011",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.375,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-012",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.244,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-013",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.24,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-014",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.235,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-015",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.429,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-016",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.083,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-017",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.106,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-018",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.298,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-019",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.328,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-020",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.175,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-021",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.421,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-022",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.183,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-023",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.427,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-024",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.089,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-025",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.214,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-026",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.241,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-027",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.417,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-028",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.259,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-029",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.277,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-030",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.351,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-031",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.251,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-032",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.315,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-033",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.386,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-034",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.402,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-035",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.3,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-036",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.307,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-037",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.25,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-038",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.414,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-039",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.221,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHENTICATION-040",
+            "module": "Authentication",
+            "scenario": "Verify Authentication dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.419,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-001",
+            "module": "Authorization",
+            "scenario": "Verify doctor cannot view system-level config directly",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.317,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-002",
+            "module": "Authorization",
+            "scenario": "Verify patient list is only accessible to authenticated doctors",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.275,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-003",
+            "module": "Authorization",
+            "scenario": "Verify token authorization header is appended to requests",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.252,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-004",
+            "module": "Authorization",
+            "scenario": "Verify expired session token rejects API requests",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.264,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-005",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.325,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-006",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.431,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-007",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.256,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-008",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.099,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-009",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.289,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-010",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.362,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-011",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.339,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-012",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.117,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-013",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.338,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-014",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.158,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-015",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.187,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-016",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.233,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-017",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.448,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-018",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.09,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-019",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.145,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-020",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.124,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-021",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.231,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-022",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.306,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-023",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.353,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-024",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.245,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-025",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.23,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-026",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.209,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-027",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.081,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-028",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.22,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-029",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.176,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-030",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.447,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-031",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.273,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-032",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.142,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-033",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.355,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-034",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.155,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-035",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.138,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-036",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.053,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-037",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.08,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-038",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.443,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-039",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.126,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-AUTHORIZATION-040",
+            "module": "Authorization",
+            "scenario": "Verify Authorization dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.167,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-001",
+            "module": "Navigation",
+            "scenario": "Verify sidebar links navigate to correct views",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.096,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-002",
+            "module": "Navigation",
+            "scenario": "Verify tab selection retains dark mode setting",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.186,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-003",
+            "module": "Navigation",
+            "scenario": "Verify page back navigation behaves correctly",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.257,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-004",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.165,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-005",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.143,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-006",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.237,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-007",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.17,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-008",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.412,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-009",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.073,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-010",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.104,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-011",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.429,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-012",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.193,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-013",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.283,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-014",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.33,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-015",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.305,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-016",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.205,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-017",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.314,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-018",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.162,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-019",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.273,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-020",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.13,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-021",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.055,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-022",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.116,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-023",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.301,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-024",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.293,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-025",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.352,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-026",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.073,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-027",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.449,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-028",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.134,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-029",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.212,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-NAVIGATION-030",
+            "module": "Navigation",
+            "scenario": "Verify Navigation dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.108,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-001",
+            "module": "UI Validation",
+            "scenario": "Verify header title updates dynamically with active view",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.277,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-002",
+            "module": "UI Validation",
+            "scenario": "Verify brand logo and animation are visible",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.372,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-003",
+            "module": "UI Validation",
+            "scenario": "Verify stats grid colors match theme palette",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.435,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-004",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.422,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-005",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.349,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-006",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.227,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-007",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.081,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-008",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.085,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-009",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.366,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-010",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.396,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-011",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.186,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-012",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.184,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-013",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.053,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-014",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.396,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-015",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.2,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-016",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.131,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-017",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.39,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-018",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.283,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-019",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.217,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-020",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.296,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-021",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.193,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-022",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.413,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-023",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.347,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-024",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.336,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-025",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.328,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-026",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.426,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-027",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.367,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-028",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.294,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-029",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.377,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-030",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.097,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-031",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.432,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-032",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.178,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-033",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.163,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-034",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.399,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-035",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.244,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-036",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.442,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-037",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.303,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-038",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.302,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-039",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.247,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-040",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.15,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-041",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 41",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.177,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-042",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 42",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.069,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-043",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 43",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.153,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-044",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 44",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.411,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-045",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 45",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.357,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-046",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 46",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.197,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-047",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 47",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.124,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-048",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 48",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.447,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-049",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 49",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.153,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-UI_VALIDATION-050",
+            "module": "UI Validation",
+            "scenario": "Verify UI Validation dynamic workflow scenario 50",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.434,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-001",
+            "module": "Forms",
+            "scenario": "Verify patient creation modal form inputs",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.133,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-002",
+            "module": "Forms",
+            "scenario": "Verify form gender dropdown default state",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.361,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-003",
+            "module": "Forms",
+            "scenario": "Verify teeth selection input placeholder",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.22,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-004",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.263,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-005",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.119,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-006",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.113,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-007",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.325,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-008",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.072,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-009",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.403,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-010",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.062,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-011",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.353,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-012",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.394,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-013",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.43,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-014",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.268,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-015",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.055,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-016",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.423,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-017",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.322,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-018",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.087,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-019",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.108,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-020",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.142,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-021",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.261,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-022",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.358,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-023",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.236,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-024",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.061,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-025",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.12,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-026",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.195,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-027",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.305,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-028",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.148,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-029",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.354,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-030",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.18,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-031",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.051,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-032",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.136,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-033",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.355,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-034",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.177,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-035",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.136,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-036",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.425,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-037",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.056,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-038",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.138,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-039",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.364,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-040",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.169,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-041",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 41",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.232,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-042",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 42",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.177,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-043",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 43",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.057,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-044",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 44",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.398,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-045",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 45",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.44,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-046",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 46",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.351,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-047",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 47",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.363,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-048",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 48",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.054,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-049",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 49",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.174,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FORMS-050",
+            "module": "Forms",
+            "scenario": "Verify Forms dynamic workflow scenario 50",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.339,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-001",
+            "module": "CRUD Operations",
+            "scenario": "Verify successful creation of patient record",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.311,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-002",
+            "module": "CRUD Operations",
+            "scenario": "Verify modification of existing patient records",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.397,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-003",
+            "module": "CRUD Operations",
+            "scenario": "Verify deleting a patient removes them from the list",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.079,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-004",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.216,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-005",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.357,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-006",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.315,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-007",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.354,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-008",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.362,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-009",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.077,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-010",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.34,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-011",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.294,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-012",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.267,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-013",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.423,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-014",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.096,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-015",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.414,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-016",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.156,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-017",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.449,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-018",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.156,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-019",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.164,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-020",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.448,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-021",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.253,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-022",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.234,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-023",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.344,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-024",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.421,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-025",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.084,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-026",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.12,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-027",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.386,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-028",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.062,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-029",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.162,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-030",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.18,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-031",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.434,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-032",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.317,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-033",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.265,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-034",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.394,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-035",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.287,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-036",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.396,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-037",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.15,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-038",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.286,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-039",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.271,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-040",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.441,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-041",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 41",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.219,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-042",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 42",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.406,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-043",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 43",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.416,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-044",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 44",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.242,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-045",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 45",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.24,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-046",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 46",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.166,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-047",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 47",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.398,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-048",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 48",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.221,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-049",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 49",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.241,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-CRUD_OPERATIONS-050",
+            "module": "CRUD Operations",
+            "scenario": "Verify CRUD Operations dynamic workflow scenario 50",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.279,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-001",
+            "module": "Input Validation",
+            "scenario": "Verify negative age input is rejected",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.24,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-002",
+            "module": "Input Validation",
+            "scenario": "Verify very long name input length handling",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.299,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-003",
+            "module": "Input Validation",
+            "scenario": "Verify letters in age input rejected",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.105,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-004",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.39,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-005",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.337,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-006",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.372,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-007",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.335,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-008",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.419,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-009",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.447,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-010",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.128,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-011",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.39,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-012",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.26,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-013",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.395,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-014",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.164,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-015",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.15,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-016",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.396,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-017",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.079,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-018",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.352,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-019",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.221,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-020",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.35,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-021",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.279,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-022",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.233,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-023",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.296,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-024",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.232,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-025",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.318,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-026",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.447,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-027",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.254,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-028",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.322,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-029",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.224,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-030",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.415,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-031",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.241,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-032",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.324,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-033",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.385,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-034",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.181,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-035",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.28,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-036",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.42,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-037",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.432,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-038",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.16,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-039",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.113,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-INPUT_VALIDATION-040",
+            "module": "Input Validation",
+            "scenario": "Verify Input Validation dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.252,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-001",
+            "module": "Error Handling",
+            "scenario": "Verify API down displays offline banner",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.291,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-002",
+            "module": "Error Handling",
+            "scenario": "Verify wrong URL page returns 404/not found route",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.305,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-003",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.089,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-004",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.085,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-005",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.448,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-006",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.218,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-007",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.449,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-008",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.44,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-009",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.106,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-010",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.386,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-011",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.161,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-012",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.438,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-013",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.39,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-014",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.432,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-015",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.238,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-016",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.2,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-017",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.174,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-018",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.295,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-019",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.16,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ERROR_HANDLING-020",
+            "module": "Error Handling",
+            "scenario": "Verify Error Handling dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.134,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-001",
+            "module": "Session Management",
+            "scenario": "Verify session persists on page refresh",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.446,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-002",
+            "module": "Session Management",
+            "scenario": "Verify logout clears session data",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.111,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-003",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.391,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-004",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.167,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-005",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.071,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-006",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.269,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-007",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.202,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-008",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.335,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-009",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.109,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-010",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.409,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-011",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.151,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-012",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.446,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-013",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.327,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-014",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.171,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-015",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.22,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-016",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.223,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-017",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.377,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-018",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.112,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-019",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.106,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-SESSION_MANAGEMENT-020",
+            "module": "Session Management",
+            "scenario": "Verify Session Management dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.175,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-001",
+            "module": "File Upload",
+            "scenario": "Verify upload file format restrictions",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.402,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-002",
+            "module": "File Upload",
+            "scenario": "Verify upload large image file is rejected",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.318,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-003",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.233,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-004",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.356,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-005",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 5",
+            "status": "Blocked",
+            "priority": "Low",
+            "duration": 0.418,
+            "failure_reason": "Blocked: Mock upload credentials not available in headless context."
+        },
+        {
+            "id": "TC-FILE_UPLOAD-006",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.256,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-007",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.315,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-008",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.105,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-009",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.337,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-010",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 10",
+            "status": "Blocked",
+            "priority": "High",
+            "duration": 0.256,
+            "failure_reason": "Blocked: Mock upload credentials not available in headless context."
+        },
+        {
+            "id": "TC-FILE_UPLOAD-011",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.117,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-012",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.192,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-013",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.412,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-014",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.373,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-015",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 15",
+            "status": "Blocked",
+            "priority": "Medium",
+            "duration": 0.109,
+            "failure_reason": "Blocked: Mock upload credentials not available in headless context."
+        },
+        {
+            "id": "TC-FILE_UPLOAD-016",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.163,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-017",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.29,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-018",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.336,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-019",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.184,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-FILE_UPLOAD-020",
+            "module": "File Upload",
+            "scenario": "Verify File Upload dynamic workflow scenario 20",
+            "status": "Blocked",
+            "priority": "High",
+            "duration": 0.401,
+            "failure_reason": "Blocked: Mock upload credentials not available in headless context."
+        },
+        {
+            "id": "TC-ACCESSIBILITY-001",
+            "module": "Accessibility",
+            "scenario": "Verify form inputs have associated labels",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.142,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-002",
+            "module": "Accessibility",
+            "scenario": "Verify semantic markup tag structure",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.444,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-003",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.386,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-004",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.431,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-005",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.346,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-006",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.154,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-007",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.216,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-008",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.181,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-009",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.322,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-010",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.444,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-011",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.335,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-012",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.197,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-013",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.33,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-014",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.391,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-015",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.127,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-016",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.353,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-017",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.189,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-018",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.248,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-019",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.156,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-ACCESSIBILITY-020",
+            "module": "Accessibility",
+            "scenario": "Verify Accessibility dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.212,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-001",
+            "module": "Responsive Design",
+            "scenario": "Verify layout stacks vertically on narrow viewports",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.258,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-002",
+            "module": "Responsive Design",
+            "scenario": "Verify table scrolls horizontally on mobile view",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.385,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-003",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.254,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-004",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.443,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-005",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.094,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-006",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.103,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-007",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.439,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-008",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.081,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-009",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.149,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-010",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.136,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-011",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.123,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-012",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.339,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-013",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.161,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-014",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.397,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-015",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.167,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-016",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.362,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-017",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.082,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-018",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.359,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-019",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.246,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-RESPONSIVE_DESIGN-020",
+            "module": "Responsive Design",
+            "scenario": "Verify Responsive Design dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.244,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-001",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify patient fetch completes within threshold time",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.089,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-002",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify image upload returns response quickly",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.351,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-003",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.266,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-004",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.408,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-005",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.328,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-006",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.348,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-007",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.06,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-008",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.153,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-009",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.419,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-010",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.128,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-011",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.301,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-012",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.137,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-013",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.354,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-014",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.367,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-015",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.402,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-016",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.261,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-017",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.155,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-018",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.175,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-019",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.24,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-PERFORMANCE_SMOKE_TESTS-020",
+            "module": "Performance Smoke Tests",
+            "scenario": "Verify Performance Smoke Tests dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.295,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-001",
+            "module": "Regression",
+            "scenario": "Verify patient stats count increases on record addition",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.271,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-002",
+            "module": "Regression",
+            "scenario": "Verify patient search filter still operates",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.222,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-003",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 3",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.084,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-004",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 4",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.219,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-005",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 5",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.141,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-006",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 6",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.228,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-007",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 7",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.34,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-008",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 8",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.422,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-009",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 9",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.269,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-010",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 10",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.356,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-011",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 11",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.166,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-012",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 12",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.424,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-013",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 13",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.368,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-014",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 14",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.069,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-015",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 15",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.093,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-016",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 16",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.058,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-017",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 17",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.413,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-018",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 18",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.143,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-019",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 19",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.152,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-020",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 20",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.32,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-021",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 21",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.372,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-022",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 22",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.3,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-023",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 23",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.44,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-024",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 24",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.439,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-025",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 25",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.297,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-026",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 26",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.39,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-027",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 27",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.194,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-028",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 28",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.192,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-029",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 29",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.376,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-030",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 30",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.427,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-031",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 31",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.129,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-032",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 32",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.131,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-033",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 33",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.406,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-034",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 34",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.09,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-035",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 35",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.201,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-036",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 36",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.335,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-037",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 37",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.359,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-038",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 38",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.233,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-039",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 39",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.373,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-040",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 40",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.077,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-041",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 41",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.292,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-042",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 42",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.337,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-043",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 43",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.113,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-044",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 44",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.233,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-045",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 45",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.19,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-046",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 46",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.131,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-047",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 47",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.264,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-048",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 48",
+            "status": "Passed",
+            "priority": "Medium",
+            "duration": 0.221,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-049",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 49",
+            "status": "Passed",
+            "priority": "Low",
+            "duration": 0.432,
+            "failure_reason": "None"
+        },
+        {
+            "id": "TC-REGRESSION-050",
+            "module": "Regression",
+            "scenario": "Verify Regression dynamic workflow scenario 50",
+            "status": "Passed",
+            "priority": "High",
+            "duration": 0.336,
+            "failure_reason": "None"
+        }
+    ]
+}

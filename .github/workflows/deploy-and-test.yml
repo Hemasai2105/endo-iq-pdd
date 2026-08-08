@@ -1,0 +1,84 @@
+name: Deploy and E2E Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build Web App
+        run: |
+          cd endo_web
+          npm install
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./endo_web/dist
+
+  e2e-test:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install selenium requests openpyxl jinja2
+
+      - name: Wait for GitHub Pages Deployment
+        run: |
+          # Wait for pages deployment to sync
+          sleep 30
+
+      - name: Execute E2E and Generate Reports
+        env:
+          BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          BACKEND_URL: https://rylfoslxaitwocputbzq.supabase.co
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          if [ -z "$SUPABASE_KEY" ]; then
+            export SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ5bGZvc2x4YWl0d29jcHV0YnpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUzMTM0NjksImV4cCI6MjEwMDg4OTQ2OX0.spCejSe31jqrrZGD_wFJPc2JLirsxZCTQ9mAy1f-JCM"
+          fi
+          # Build locally as well in case pages are not propagated immediately
+          cd endo_web && npm install && npm run build && cd ..
+          python automation/tests/run_e2e_tests.py
+
+      - name: Upload Test Report Artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: EndoAI-Test-Reports
+          path: Test_Results/
+          retention-days: 30
+
+      - name: Publish Job Summary
+        if: always()
+        run: |
+          cat Test_Results/Markdown/test-summary.md >> $GITHUB_STEP_SUMMARY
